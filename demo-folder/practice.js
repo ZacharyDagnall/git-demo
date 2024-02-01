@@ -7,3 +7,5 @@ console.log(mysterious_function(9, "banana"));
 console.log(mysterious_function(3, "mouse"));
 console.log(mysterious_function(1, "orange"));
 console.log(mysterious_function("11", "coyotes"));
+console.log(mysterious_function("grapefruit", 20));
+console.log(mysterious_function("chocolate", "cereal"));
