@@ -1,5 +1,10 @@
 function mysterious_function(num, thing) {
-  return `There are ${num} ${thing}s`;
+  if(num <= 1){
+    return "There is" + num + thing 
+  }else {
+    return `There are ${num} ${thing}s`;
+  }
+  
 }
 
 console.log(mysterious_function(12, "apple"));
